@@ -1,9 +1,0 @@
-#prncpl{
-    display:block;          /* Rcnt´gl . */
-    text-align: left;     /* C Rspct al Rcnt´gl . */
-    background-color: rgb(104, 104, 75) ;  /* Fnd dl Rcnt´gl . */
-    width: 410px;           /* Anch dl Rcnt´gl . */
-
-}
-#titulo{    color: brown;   background-color: rgb(199, 185, 185);    }
-#subtitulo{    color: rgb(105, 241, 13);   background-color: brown;    }

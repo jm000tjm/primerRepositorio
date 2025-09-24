@@ -1,0 +1,29 @@
+li{ color: rgb(188,188,188); font-size: 19px; 
+    font-weight: bold;                     /* Negrita*/
+}
+#prncpl{
+    display:block;                         /* Rcnt´gl . */
+    text-align: left;                      /* C Rspct al Rcnt´gl . */
+    background-color: rgb(22, 11, 11) ;  /* Clr d Fnd dl Rcnt´gl . */
+    width: 450px;                          /* Anch dl Rcnt´gl . */
+
+}
+#titulo{    color: brown;               background-color: rgb(199, 185, 185);    }
+#subtitulo{ color: rgb(105, 241, 13);   background-color: brown;    }
+.prctcndC{ font-family: arial ;             /* Tipo de letra */
+            font-size: 16px;                /* Tamaño de letra */
+            font-weight: 700;               /* Grosor de letra (Ngrt) */
+            color: rgb(155, 122, 188);    /* Color dtra */
+            }
+.plbrsClv{ font-family: arial ;             /* Tipo de letra */
+            font-size: 14px;                /* Tamaño de letra */
+            font-weight: 700;               /* Grosor de letra */
+            color: blueviolet;            /* Color dtra */
+            background-color: rgb(199, 185, 185); /* Color de fondo */
+            }
+.vrEjrccDlDD{ 
+            font-family: 'Times New Roman';  /* Tipo de letra */
+            font-size: 18px;                   /* Tamaño de letra */
+            font-weight: Bold;                 /* Grosor de letra (Ngrt)  */
+            color: rgb(139, 85, 139);        /* Color dtra */
+            }
