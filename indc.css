@@ -1,5 +1,5 @@
-li{ color: rgb(188,188,188); font-size: 19px; 
-    font-weight: bold;                     /* Negrita*/
+li{ color: rgb(222,222,211); font-size: 19px; 
+    font-weight: 900;                     /* Negrita*/
 }
 #prncpl{
     display:block;                         /* Rcnt´gl . */
@@ -23,7 +23,13 @@ li{ color: rgb(188,188,188); font-size: 19px;
             }
 .vrEjrccDlDD{ 
             font-family: 'Times New Roman';  /* Tipo de letra */
-            font-size: 18px;                   /* Tamaño de letra */
-            font-weight: Bold;                 /* Grosor de letra (Ngrt)  */
-            color: rgb(139, 85, 139);        /* Color dtra */
+            font-size: 18px;                 /* Tamaño de letra */
+            font-weight: Bold;               /* Grosor de letra (Ngrt)  */
+            color: rgb(139, 85, 139);      /* Color dtra */
             }
+.fch{
+    font-family: Arial narrow;        /* Tipo de letra */
+    font-size: 15px;                   /* Tamaño de letra */
+    font-weight: Bold;                 /* Grosor de letra (Ngrt)  */
+    color: rgb(144, 155, 144);               /* Color dtra */
+}
