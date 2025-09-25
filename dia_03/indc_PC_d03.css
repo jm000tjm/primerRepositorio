@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;                   /* El  cntndr_1   s un Contenedor Flexbox n Columna */
+  background-color: rgb(18, 13, 17);
+}
+
+#contenedor {
+  
+  display: flex;
+  flex-direction: column;                   /* El  cntndr_1   s un Contenedor Flexbox n Columna */
+    border: 5px solid rgb(31,31,31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 2px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+    background-color: rgb(31, 31, 31); /* Color d Fondo pr el cntndr_1 */ 
+  height: 590px;
+  width: 440px;
+  gap: 5px;       /* Espacio ntr ls Elmnts */
+  padding: 10px;
+}
+
+.contenedor-linea_1 {
+  display: flex;
+  gap: 5px;
+}
+
+.cjsLinea_1 {
+    text-align: center;
+    justify-content: center;
+    background: rgb(31, 31, 31);
+    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+  color: brown;
+  height: 55px;
+  width: 66px;
+  margin: 6px;       /* Espacio ntr ls Elmnts */
+    padding: 13px;    /* Espacio ntr l Borde y ls Elmnts d la Caja */
+    
+}
+
+.contenedor-linea2 {
+  display: flex;
+  gap: 10px;                 /* Espacio ntr ls Elmnts */
+  padding: 10px;
+}
+
+.cjsLinea2 {
+    background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;              ); 
+    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+  color: brown;
+  height: 50px;
+  width: 190px;
+  padding: 13px;        /* Espacio ntr l Borde y ls Elmnts d la Caja */
+  
+}
+
+.contenedor-linea3 {
+  display: flex;
+  gap: 10px;                 /* Espacio ntr ls Elmnts */
+  padding: 10px;
+  
+}
+
+.cjs_1_Linea3 {
+    background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;               
+    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+  color: brown;
+  height: 50px;
+  width: 50px;
+  padding: 13px;        /* Espacio ntr l Borde y ls Elmnts d la Caja */
+  
+}
+
+
+.cjs_2_Linea3 {
+    background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;              
+    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+  color: rgb(108,106,108);
+  height: 50px;
+  width: 320px;
+  padding: 4px;   
+  
+  font-family: arial;
+  font-size: 14px;
+}
+
+
+
+
+
+
+.cj_1_Linea4 {
+    background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;               
+    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+  color: brown;
+  height: 30px;
+  width: 50px;
+  padding: 10px;        /* Espacio ntr l Borde y ls Elmnts d la Caja */
+}
+.cj_2_Linea4 {
+    background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;              
+    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+  color: rgb(108,106,108);
+  height: 30px;
+  width: 180px;
+  padding: 4px;   
+  
+  font-family: arial;
+  font-size: 14px;
+}
+.cj_3_Linea4 {
+    background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;              
+    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+  color: rgb(108,106,108);
+  height: 30px;
+  width: 180px;
+  padding: 4px;   
+  
+  font-family: arial;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+.cj_1_Linea5 {
+    background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;              
+    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+  color: rgb(108,106,108);
+  height: 30px;
+  width: 400px;
+  padding: 4px;   
+  
+  font-family: arial;
+  font-size: 14px;
+}
+.cj_2_Linea5 {
+    background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;              
+    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+  color: rgb(108,106,108);
+  height: 30px;
+  width: 150px;
+  padding: 4px;   
+  
+  font-family: arial;
+  font-size: 14px;
+}
+
+
+
+span { font-size: 17px;}
+h1 { text-align: center;}

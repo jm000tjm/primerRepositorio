@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contenedor {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.contenedor-caja12 {
+  display: flex;
+  gap: 10px;
+}
+
+.caja {
+  background: blue;
+  color: white;
+  height: 220px;
+  width: 100px;
+  margin: 10px;
+}
+.caja3 {
+  background-color: rgb(129, 129, 202);
+  color: white;
+  height: 100px;
+}

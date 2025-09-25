@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejrcc Hch p el Prfsr n Clase</title>
+    <style>
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="./Hch_nClase_1.css" />    
+</head>
+<body>
+     
+
+    <table>   <!-- Insers´ d Tabla -->
+
+      <thead> <!-- Encabezado d Tabla, suele sr la 1a Fila, Cntn ls Encabezados d las Clmns -->
+
+        <tr>  <!-- Elmnt Fila. N ste case Fila dl Encabezado d la Tabla . Fila ENCABEZADO-->
+
+          <th>Nombre</th>         <!-- Elmnt  <th>  define una Celda cm Encabezado d la una Clmn -->
+          <th>Pais</th>
+          <th>Edad</th>
+          <th>Recomendación</th>
+
+        </tr>
+
+      </thead> <!-- Cierre d Encabezado d Tabla, e.d, Encabezados d las Clmns -->
+
+
+      <tbody> <!-- Cuerpo d la Tabla, suele sr a partir d la 2a Fila, Cntn ls Datos d las Clmns -->
+
+        <tr>                        <!-- Fila 01-->
+          <td>Boren Pardo</td>
+          <td>Colombia</td>
+          <td>25</td>
+          <td>SI</td>
+        </tr>
+
+        <tr>                        <!-- Fila 02-->
+          <td>Gerardo Martinez</td>
+          <td>El salvador</td>
+          <td>27</td>
+          <td>Si</td>
+        </tr>
+
+        <tr>                        <!-- Fila 03-->
+          <td>Kevin Rodriguez</td>
+          <td>Bolivia</td>
+          <td>29</td>
+          <td>NO</td>
+        </tr>
+
+      </tbody> <!-- Cierre dl Cuerpo d la Tabla -->
+
+    </table> <!-- Cierre d Insers´ d Tabla -->
+
+    <br><br>
+
+
+    <form action="id_Dl_Input" id="formulario">          <!-- Abre Secc´q Contiene Cntrls Intrctvs, e.d, Abre Secc´ d un Formulario pr la Entrada d Datos -->
+
+      <label for="id_Dl_Input">Nombre</label>                                   <!-- Elmnt Etiqut q Describe a un Cntrl Intrctvo, e.d, dscrb a un Input -->
+      <input type="text" id="id_Dl_Input" placeholder="Nombres y Apellidos" />  <!-- Elmnt q Permite la Entrada d Datos, e.d, s un Cntrl Intrctvo 
+            type="text"
+            type="number" : Obliga al usuario a escribir dentro dl campo un Número Válido.
+            type="datetime-local" : Obliga al usuario a escribir dentro dl campo una Fecha y Hora Válida.
+            type="tel" : Obliga al usuario a escribir dentro dl campo un Número Telefónico Válido.
+            type="url" : Obliga al usuario a escribir dentro dl campo una URL Válida.
+            type="password" : Obliga al usuario a escribir dentro dl campo una Contraseña.
+            type="date" : Obliga al usuario a escribir dentro dl campo una Fecha Válida.
+            type="color" : Obliga al usuario a escribir dentro dl campo un Valor de Color Válido.
+            type="checkbox" : Obliga al usuario a seleccionar una o más opciones de un conjunto de opciones.
+            type="radio" : Obliga al usuario a seleccionar una opción de un conjunto de opciones.
+            type="file" : Obliga al usuario a seleccionar un archivo para subir.
+            type="search" : Obliga al usuario a escribir dentro dl campo un Término de Búsqueda.
+            type="range" : Obliga al usuario a seleccionar un valor dentro de un rango definido.
+            type="hidden" : El campo no es visible para el usuario, pero su valor se envía con el formulario.
+            type="button" : Crea un botón que no envía el formulario, pero puede tener una función definida por JavaScript.
+            type="submit" : Crea un botón que envía el formulario.
+            type="reset" : Crea un botón que restablece todos los campos del formulario a sus valores iniciales.
+            type="image" : Crea un botón de envío que utiliza una imagen en lugar de un botón estándar.
+            type="month" : Obliga al usuario a escribir dentro dl campo un Mes y Año Válidos.
+            type="week" : Obliga al usuario a escribir dentro dl campo una Semana y Año Válidos.
+            type="time" : Obliga al usuario a escribir dentro dl campo una Hora Válida.
+            type="datetime" : Obliga al usuario a escribir dentro dl campo una Fecha y Hora Válidas (sin zona horaria).
+            type="email" :  obliga al usuario a escribir dentro dl campo una Direcc´ d Correo Electrónico Válida. 
+            
+            placeholder=""  Txt Provisional desplegado n el input, q sirve d Ghía o Ej pr el Usuario -->
+
+
+      <label for="edad">Edad</label>
+      <input        type="number"        id="edad"
+        onkeydown="return event.key !== 'e' && event.key !== 'E' && event.key !== '+' && event.key !== '-'"
+      />
+
+      
+      <select name="" id="">
+        <option value="">ARGENTINA</option>
+        <option value="">BOLIVIA</option>
+        <option value="">CHILE</option>
+        <option value="">PERU</option>
+      </select>
+
+      <br><br>
+
+      <button>enviar</button>
+
+    </form>         <!-- Cierra Secc´q Contiene Cntrls Intrctvs, e.d, Cierra Secc´ d un Formulario pr la Entrada d Datos -->
+
+
+
+
+</body>
+</html>

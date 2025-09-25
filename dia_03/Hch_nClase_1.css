@@ -1,0 +1,8 @@
+ 
+ #formulario {
+  display: flex;            /* Establece el Contenedor cm un Contenedor Flexbox */
+  flex-direction: column;   /* Alinea ls Elmnts n una columna */
+  align-items: center;      /* Alinea ls Elmnts n el Centro Horizontalmente */
+  justify-content: center;  /* Alinea ls Elmnts n el Centro Verticalmente */
+  gap: 16px;                /* Espacio ntr ls Elmnts */
+}

@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#contenedor {
+  
+  display: flex;
+  flex-direction: column;                   /* El  cntndr_1   s un Contenedor Flexbox n Columna */
+    border: 5px solid rgb(180, 170, 170); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 20px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+    background-color: rgb(222, 211, 205); /* Color d Fondo pr el cntndr_1 */ 
+  height: 445px;
+  width: 1000px;
+  gap: 5px;       /* Espacio ntr ls Elmnts */
+  padding: 10px;
+}
+
+.contenedor-linea_1 {
+  display: flex;
+  gap: 5px;
+}
+
+.cjsLinea_1 {
+    text-align: center;
+    justify-content: center;
+    background: rgb(230, 225, 220);
+    border: 3px solid rgb(180, 170, 170); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+  color: brown;
+  height: 170px;
+  width: 330px;
+  margin: 10px;
+    padding: 13px;
+    
+}
+
+.contenedor-linea2 {
+  display: flex;
+  gap: 10px;                 /* Espacio ntr ls Elmnts */
+  padding: 10px;
+}
+
+.cjsLinea2 {
+    background-color: rgb(230, 225, 220); 
+    border: 3px solid rgb(180, 170, 170); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+  color: brown;
+  height: 150px;
+  width: 460px;
+  padding: 13px;        /* Espacio ntr l Borde y ls Elmnts d la Caja */
+  
+}
+
+span { font-size: 17px;}
+h1 { text-align: center;}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./indc_E2_03.css"/>
+</head>
+<body>
+    <form action="" id="cntndr_1">
+        
+
+
+
+        <div id="contenedor">
+
+            <h1>Registro de Planeación de Noches de Hogar con los Misioneros</h1>
+
+            <div class="contenedor-linea_1">
+
+
+
+
+
+                <div class="cjsLinea_1 " style="text-align: center;">   <!-- Caja 1 Row 1 -->          
+                    <span><strong>Familia anfitrión de la Noche de Hogar </strong></span> <br><br>
+                    <label for="ApDeLaFamilia">Apellidos de la familia:</label>
+                    <input type="text" name="Familia" id="ApDeLaFamilia" placeholder="Apellidos"/>  <br>    
+
+                </div>
+
+                
+
+
+
+
+                <div class="cjsLinea_1 ">   <!-- Caja 2 Row 1 -->            
+                    <span><strong>Datos de la Familia Anfitrión  </strong></span> <br><br>
+
+                    <label for="NumeroDeMiembrosNLaFamilia">Número de miembros en la familia:</label>
+                    <input type="number" name="NumeroDeMiembros" id="NumeroDeMiembrosNLaFamilia" placeholder="Número de miembros" 
+                    onkeydown="return event.key !== 'e' && event.key !== 'E' && event.key !== '+' && event.key !== '-'"> <br><br>      
+
+                    <label for="LlamamientoDlRspnsbl">Llamamiento o asignación del responsable:</label>        
+                    <select name="Llamamiento" id="LlamamientoDlRspnsbl">
+                        <option value="Sin llamamiento">Sin llamamiento ni asignación</option>
+                        <option value="Presidente de Quorum">Presidente de Quorum</option>
+                        <option value="Presidenta de Sociedad de Socorro">Presidenta de Sociedad de Socorro</option>
+                        <option value="Lider Misional">Lider Misional</option>
+                        <option value="Consejero(a) de alguna organización">Consejero(a) de alguna organización</option>
+                        <option value="Secretario(a) de alguna organización">Secretario(a) de alguna organización</option>
+                        <option value="Otro">Otro</option>
+                    </select>  
+               
+                </div>    
+                
+
+
+
+
+
+
+
+<img      src="./imgns/NocheDeHogar.jpg"         alt="Noche de hogar"             height="200px" />
+            </div>
+
+
+
+
+
+
+
+            <div class="contenedor-linea2"> <!-- Contenedor d Cajas Row 2 -->
+
+                <div class="cjsLinea2"> <!-- Caja 1 Row 2 -->
+                        <span><strong>Lugar en el que se realizará la Noche de Hogar </strong></span> <br><br>
+
+                        <label for="CalleYNumero">Calle y número:</label>
+                        <input type="text" name="CalleYNumero" id="CalleYNumero" placeholder="Calle y número"/>  <br>
+
+                        <label for="ColoniaOFraccionamiento">Colonia o fraccionamiento:</label>
+                        <input type="text" name="CalleYNumero" id="ColoniaOFraccionamiento" placeholder="Colonia o fraccionamiento"/>  <br>
+
+                        <label for="Municipio">Municipio:</label>
+                        <input type="text" name="Municipio" id="Municipio" placeholder="Municipio"/>  <br>
+
+                        <label for="Estado">Estado:</label>
+                        <input type="text" name="Estado" id="Estado" placeholder="Entidad federativa"/>  <br>    
+
+                </div>
+
+
+                <div class="cjsLinea2"> <!-- Caja 2 Row 2 --> 
+
+                    <span><strong>Fecha en que se realizará la Noche de Hogar </strong></span> <br><br>
+
+                    <label for="FechaYHora">Elija Fecha y Hora disponible para la Noche de Hogar:</label>  <br>      
+                    <input type="datetime-local" name="FechaYHora" id="FechaYHora"> <br><br>    
+
+                    <button> Registrar Fecha Noche de Hogar</button>
+
+                </div>  
+                
+            </div>
+
+        </div>
+
+    </form>
+
+
+
+</body>
+</html>

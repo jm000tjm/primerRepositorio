@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="5">
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Kg n Almacén</th>
+        </tr>
+        <tr>
+            <td>Almendras</td>
+            <td>100</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Amaranto</td>
+            <td>120</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Nuez Pecana</td>
+            <td>130</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Avellana</td>
+            <td>150</td>
+            <td>9</td>
+        </tr>
+    <table></table>
+
+    <form action="">
+        <br><br>
+        <label for="NombreProducto">Nombre del Producto:</label>
+        <input type="text" name="Nombre" id="NombreProducto" placeholder="Almendras"/>  <br><br>
+
+        <label for="Precio">Precio:</label>
+        <input type="number" name="Precio" id="Precio" placeholder="Precio" 
+        onkeydown="return event.key !== 'e' && event.key !== 'E' && event.key !== '+' && event.key !== '-'"> <br><br>
+
+        <label for="Cantidad">Cantidad:</label> 
+        <input type="number" name="Cantidad" id="Cantidad" placeholder="Capture la cantidad" 
+        onkeydown="return event.key !== 'e' && event.key !== 'E' && event.key !== '+' && event.key !== '-'"> <br><br>
+
+        <label for="Email">Email:</label> 
+        <input type="email" name="Email" id="Email" placeholder="nombredelcorreo@ejemplo.com"> <br><br>
+
+        <input type="datetime-local" name="FechaYHora" id="FechaYHora"> <br><br>
+
+        <label for="FormaDePago">Forma de Pago:</label>
+        <select name="FormaDePago" id="FormaDePago">
+            <option value="Efectivo">Efectivo</option>
+            <option value="TarjetaCredito">Tarjeta de Crédito</option>
+            <option value="TarjetaDebito">Tarjeta de Débito</option>
+            <option value="TransferenciaBancaria">Transferencia Bancaria</option>
+        </select>
+
+        <button>enviar</button>
+
+    </form>
+
+</body>
+</html>
