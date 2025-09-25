@@ -176,5 +176,28 @@ body {
 
 
 
+
+
+
+.btn {
+  border: none;
+  background-color: rgb(22,22,22);
+  color: rgb(77,77,77);
+  font-weight: 600;
+  /*height: 150px;*/
+  height: 6em;
+
+  /*
+     
+    border-radius: 5px;
+    
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 100px;*/  
+}
+
+
+
 span { font-size: 17px;}
 h1 { text-align: center;}

@@ -1,0 +1,69 @@
+* {  margin: 0;  padding: 0;  box-sizing: border-box;   }
+/* .divsito {
+  border: 2px red solid;
+}
+.spansito {
+  border: 2px red solid;
+  font-weight: bold;
+  color: red;
+}
+.sect {  border: 2px red solid;}
+.noticia {  border: 2px red solid;}
+.menu {  border: 2px red solid;}
+ */
+
+body {  height: 100vh;  color: white;  }
+
+.clss_Cbcr {background-color: light gray; color: brown; height: 10%;/*Altr c Rspct al body*/  }
+.clss_Nav { background-color: gray;       color: white; height: 10%;/*Altr c Rspct al body*/  }
+
+.contenedor {  height: 70%;/*Altr c Rspct al body*/  display: flex;    }
+
+.clss_Prncpl { background-color: rgb(95, 81, 81);  width: 60%;     }
+
+.clss_Asd {    background-color: black;            width: 40%;     }
+
+
+
+
+.cntndr_2_Ln_Prncpl_y_Asd { height: 100%;  display: flex; flex-flow: column;
+border: 4px rgb(0, 0, 199) solid; /* Borde c Grsor, Color, Solido */
+padding: 5px; /* Espacio c respecto al margen dl Contenedor */    
+gap: 5px;     /* Espacio ntr Líneas */ 
+}
+
+
+    .cntndr_pr_Ln_1_Asd { height: 100%;  display: flex;  
+    column-gap: 5px; /* Espc ntr Clmns */ 
+    padding: 4px; /* Espacio c respecto al margen dl Contenedor */ 
+    border: 4px rgb(166, 111, 199) solid; /* Borde c Grsor, Color, Solido */
+    border-radius: 2px; }
+
+        .clss_Asd_L1_cntndr_1 { background-color: lightblue; width: 50%; height: 100%;
+        border: 4px rgb(22, 22, 199) solid; /* Borde c Grsor, Color, Solido */
+        border-radius: 8px;}   
+
+        .clss_Asd_L1_cntndr_2 { background-color: lightblue;  width: 50%; height: 100%;
+        border: 4px rgb(22, 22, 199) solid; /* Borde c Grsor, Color, Solido */
+        border-radius: 8px;}  
+
+
+
+    .cntndr_pr_Ln_2_Asd { height: 100%;  display: flex;
+    padding: 4px; /* Espacio c respecto al margen dl Contenedor */ 
+    border: 4px rgb(166, 111, 199) solid; /* Borde c Grsor, Color, Solido */
+    border-radius: 2px;    }
+        .clss_Asd_L2_cntndr_1 { background-color: lightblue;  width: 100%; height: 100%;
+        border: 4px rgb(22, 22, 199) solid; /* Borde c Grsor, Color, Solido */
+        border-radius: 8px;}      
+
+
+
+
+.clss_PiePgnDlSitio {  background-color: darkgray;  height: 10%;/*Altr c Rspct al body*/      }
+
+.u_C {  display: flex;  align-items: center;  justify-content: center;  }
+.u_I {  display: flex;  align-items: center;  justify-content: left;  }
+.u_D {  display: flex;  align-items: center;  justify-content: right;  }
+.t_Claro { color: rgb(199,199, 199);}
+.t_Obscr { color: rgb(22, 22, 50);}

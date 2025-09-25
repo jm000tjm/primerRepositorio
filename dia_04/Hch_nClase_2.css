@@ -1,0 +1,52 @@
+* {  margin: 0;  padding: 0;  box-sizing: border-box;  }
+body { height: 100vh;   display: flex;  align-items: center;  justify-content: center;}
+
+.container-cajas {
+  border: 2px blue solid;
+  height: 400px;
+  width: 200px;
+  position: relative;
+}
+.caja {  height: 100px;/*Altr d cj*/  width: 100px;/*Anch d cj*/  color: white;/*Clr dl txt*/
+}
+.caja1 {
+  background-color: brown;
+  position: absolute;
+  left: 100px;
+  top: 300px;
+  z-index: 10;
+}
+.caja2 {
+  background-color: darkblue;
+    background-color: crimson;
+    background-color: brown;
+  position: absolute;
+  left: 200px;
+  top: -100px;
+  z-index: 10;
+}
+.caja3 {
+  background-color: crimson;
+    background-color: brown;
+  position: absolute;
+  left: 100px;
+  top: 0px;
+  z-index: 10;
+}
+.caja4 {
+  background-color: darkgreen;
+  position: absolute;
+  left: -100px;
+  top: 400px;
+  z-index: 20;
+}
+.caja5 {
+  background-color: blueviolet;
+  background-color: darkblue;
+    background-color: crimson;
+    background-color: brown;
+  position: absolute;
+  left: 300px;
+  top: -200px;
+  z-index: 10;
+}
