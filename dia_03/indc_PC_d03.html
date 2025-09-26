@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio d Práctica Calificada 2 Correspondiente al Día 03</title>
     <link rel="stylesheet" href="./indc_PC_d03.css"/>
 </head>
 <body>
 
-    
+           
 
-   <form action="" id="cntndr_1">
-        
-        <div id="contenedor">
+        <div class="contenedorGlobal cntndr_Clmn"> <!-- Contenedor d Cajas Línea 4 -->
 
             <div style="text-align: center;"> 
                 <img src="./imgns/LogoEpicGames.jpg" alt="Logo Epic Games"  /> <br /><br />
@@ -23,91 +21,120 @@
             <div class="contenedor-linea_1"> <!-- Se Abre Contenedor d Cajas Línea 1 -->
 
                 <div class="cjsLinea_1 " style="text-align: center;">   <!-- Caja 1 Row 1 -->          
-                    <img src="./imgns/LogoFacebook.jpg"         alt="Logo de Facebook"             height="44px" />
+                    <a href="https://www.facebook.com/?locale=es_LA">
+                        <img src="./imgns/LogoFacebook.jpg"         alt="Logo de Facebook"             height="44px" />
+                    </a>
                 </div>
 
                 
 
                 <div class="cjsLinea_1 ">   <!-- Caja 2 Row 1 -->            
-                    <img src="./imgns/LogoGoogle.jpg" alt="Logo de Google" height="44px" /> 
+                    <a href="https://www.google.com/?hl=es_419&zx=1758854498434&no_sw_cr=1">
+                        <img src="./imgns/LogoGoogle.jpg" alt="Logo de Google" height="44px" /> 
+                    </a>
                 </div>    
                 
 
 
-                <div class="cjsLinea_1 ">   <!-- Caja 3 Row 1 -->            
-                    <img src="./imgns/LogoPlaySation.jpg" alt="Logo de PlayStation" height="44px" /> 
+                <div class="cjsLinea_1 ">   <!-- Caja 3 Row 1 -->  
+                    <a href="https://www.playstation.com/es-mx">
+                        <img src="./imgns/LogoPlaySation.jpg" alt="Logo de PlayStation" height="44px" /> 
+                    </a>
                 </div>    
                 
                 
                 
-                <div class="cjsLinea_1 ">   <!-- Caja 4 Row 1 -->            
-                    <img src="./imgns/LogoXBox.jpg" alt="Logo de PlayStation" height="44px" /> 
+                <div class="cjsLinea_1 ">   <!-- Caja 4 Row 1 -->
+                    <a href="https://www.xbox.com/es-MX">            
+                        <img src="./imgns/LogoXBox.jpg" alt="Logo de PlayStation" height="44px" /> 
+                    </a>
                 </div>  
                 
                                
-                <div class="cjsLinea_1 ">   <!-- Caja 5 Row 1 -->            
-                    <img src="./imgns/LogoNintendo.jpg" alt="Logo de PlayStation" height="44px" /> 
+                <div class="cjsLinea_1 ">   <!-- Caja 5 Row 1 -->
+                    <a href="https://www.nintendo.com/es-mx/?gad_source=1">
+                        <img src="./imgns/LogoNintendo.jpg" alt="Logo de PlayStation" height="44px" /> 
+                    </a>
                 </div>  
 
 
-            </div>  <!-- Se Cierra Contenedor d Cajas Línea 1 -->
+            </div>  <!-- Se Cierra Contenedor d Logos n Línea 1 -->
 
-            <P style="color: white; font-family: Arial; ">REGISTRARSE</P>
+            <P class="ttc" ">REGISTRARSE</P>
 
-            <select name="Llamamiento" id="LlamamientoDlRspnsbl">
-                <option value="Argentina">Argentina</option>
-                <option value="Brasil">Presidente de Quorum</option>
-                <option value="Bolivia">Presidenta de Sociedad de Socorro</option>
-                <option value="Canadá">Lider Misional</option>
-                <option value="Chile">Consejero(a) de alguna organización</option>
-                <option value="Colombia">Consejero(a) de alguna organización</option>
-                <option value="Ecuador">Secretario(a) de alguna organización</option>
-                <option value="México">Consejero(a) de alguna organización</option>
-                <option value="Paraguay">Consejero(a) de alguna organización</option>
-                <option value="Venezuela">Otro</option>
-            </select> 
+             <div class="cjsLn_UsrEmailCntrsn">
+                <select name="slccnrPais" id="slccnrPais" class="list_Dsplgbl">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Canadá">Canadá</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Costa Rica">Costa Rica</option>                    
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="El Salvador">El Salvador</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="México">México</option>
+                    <option value="Nicaragua">Nicaragua</option>
+                    <option value="Panamá">Panamá</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Venezuela">Venezuela</option>
+                </select> 
+            </div>   
 
 
+            <div class="cntndr_dNmbrAplld "> <!-- Contenedor d Cajas Row 2 -->
 
-            <div class="contenedor-linea2"> <!-- Contenedor d Cajas Row 2 -->
-
-                <div class="cjsLinea2"> <!-- Caja 1 Row 2 -->
-
-                        <input type="text" name="Nmbr" id="Nmbr" placeholder="*Nombre"/>  <br>
-
+                <div class="cjsLn_NmbrApllds"> <!-- Caja 1 Row 2 -->
+                        <input type="text" name="Nmbr" id="Nmbr" placeholder="*Nombre" 
+                        class="input_Crts"/>  <br>
                 </div>
 
 
-                <div class="cjsLinea2"> <!-- Caja 2 Row 2 --> 
+                <div class="cjsLn_NmbrApllds"> <!-- Caja 2 Row 2 --> 
 
-                    <input type="text" name="Apllds" id="Apllds" placeholder="*Apellidos"/>  <br>
+                    <input type="text" name="Apllds" id="Apllds" placeholder="*Apellidos"
+                    class="input_Crts"/>  <br>
 
                 </div>  
                 
             </div>
 
-            <input type="text" name="NmbrDeUsuario" id="NmbrDeUsuario" placeholder="*Nombre de usuario"/>  <br>
-
-            <input type="email" name="CorreoElectronico" id="CorreoElectronico" placeholder="*Dirección de Correo electrónico"/>  <br>
-
-            <input type="password" name="Contraseña" id="Contraseña" placeholder="*Contraseña"/>  <br>
-
-
-
-
-            <div class="contenedor-linea3"> <!-- Contenedor d Cajas Línea 3 -->
-
-                <div class="cjs_1_Linea3"> <!-- Caja 1 Row 3 -->
-
-                        <input type="checkbox" name="Publicidad" id="Publicidad" placeholder="*Me gustaría recibir noticias, encuestas y ofertas especiales de Epic Games."/>  <br>
-
+            <div class="cjsLn_UsrEmailCntrsn"> 
+                <div class="tmn_UsrEmailCntrsn">
+                <input type="text" name="NmbrDeUsuario" id="NmbrDeUsuario" 
+                placeholder="*Nombre de usuario" class="input_Lrgs"/>  
                 </div>
 
+                <div class="tmn_UsrEmailCntrsn">
+                <input type="email" name="CorreoElectronico" id="CorreoElectronico" 
+                placeholder="*Dirección de Correo electrónico" class="input_Lrgs"/>  
+                </div>
 
-                <div class="cjs_2_Linea3"> <!-- Caja 2 Row 3 --> 
+                <div class="tmn_UsrEmailCntrsn">
+                <input type="password" name="Contraseña" id="Contraseña" 
+                placeholder="*Contraseña" class="input_Lrgs"/>  
+                </div>
 
+            </div>
+
+
+
+
+
+
+
+            <div class="cntndr_CheckBox cntndr_DIV_nFila"> <!-- Contenedor d Cajas Línea 3 -->
+
+                <div class="cj_1_Ln_NoticiasEnuestasOfertas tmn_CheckBox"> <!-- Caja 1 Row 3 -->
+                    <input type="checkbox" name="Publicidad" id="Publicidad" 
+                    placeholder="*Me gustaría recibir noticias, encuestas y ofertas especiales de Epic Games."/>  <br>
+                </div>
+
+                <div class="etqt_RecibirNoticias"> <!-- Caja 2 Row 3 --> 
                     <Label for="Publicidad">*Me gustaría recibir noticias, encuestas y ofertas especiales de Epic Games.</Label>
-
                 </div>  
                 
             </div>
@@ -118,71 +145,62 @@
 
 
 
-            <div class="contenedor-linea3"> <!-- Contenedor d Cajas Línea 4 -->
+            <div class="cntndr_CheckBox cntndr_DIV_nFila"> <!-- Contenedor d Cajas Línea 4 -->
 
-                <div class="cj_1_Linea4"> <!-- Caja 1 Row 4 -->
-
-                        <input type="checkbox" name="Publicidad" id="Publicidad" placeholder="*He leído y acepto los términos de servicio."/>  <br>
-
+                <div class="cj_1_Ln_Terminos tmn_CheckBox "> <!-- Caja 1 Row 4 -->
+                    <input type="checkbox" name="Publicidad" id="Publicidad" 
+                    placeholder="*He leído y acepto los términos de servicio." 
+                    /> 
                 </div>
 
 
-                <div class="cj_2_Linea4"> <!-- Caja 2 Row 4 --> 
-
+                <div class="cj_2_Ln_Terminos"> <!-- Caja 2 Row 4 --> 
                     <p>*He  leído  y  acepto  los </p>
-           
                 </div>  
 
 
-                <div class="cj_3_Linea4"> <!-- Caja 2 Row 4 --> 
-
-                    <p style="color: white">términos de servicio</p>
-
+                <div class="cj_3_Ln_Terminos"> <!-- Caja 2 Row 4 --> 
+                    <a href="https://legal.epicgames.com/es-ES/epicgames/tos" 
+                    style="color:rgb(199, 199, 199);   font-family: arial;    text-decoration:  none;"/>
+                    términos de servicio</a>
                 </div>                  
 
             </div>
+
 
 
 
 
 
             <button class="btn">CREAR CUENTA</button>
-            
 
 
-
-
-
-            <div style="text-align: center; font-family: Arial; 14px; color: white; margin-top: 10px;">
-                <a href="">Politica de privacidad</a>
+            <div class="bnt u_C">
+                <a href="https://legal.epicgames.com/es-ES/epicgames/privacy-policy" 
+                style="color:rgb(199, 199, 199);   font-family: arial;    text-decoration:  none;"/>
+                Politica de privacidad</a>
             </div>
 
 
+            <div class="cntndr_DIV_nFila">
 
-
-
-
-
-
-            <div class="contenedor-linea3"> <!-- Contenedor d Cajas Línea 4 -->
-
-               <div class="cj_1_Linea5"> <!-- Caja 2 Row 4 --> 
+                <div class="cj_1_TieneUnaCuenta"> <!-- Caja 2 Row 4 --> 
 
                     <p>¿Tienes una cuenta de Epic Gamess? </p>
-           
+            
                 </div>  
 
 
-                <div class="cj_2_Linea5"> <!-- Caja 2 Row 4 --> 
+                <div class="cj_2_TieneUnaCuenta"> <!-- Caja 2 Row 4 --> 
 
-                    <p style="color: white">Iniciar sesión</p>
+                    <a href="https://www.epicgames.com/id/login?productName=epic-games&lang=es_ES&redirectUrl=https%3A%2F%2Fwww.epicgames.com%2Fhelp%2Fes-ES%2Fcontact-us&client_id=8177ec72e7364c59a61a36213900ba67&noHostRedirect=true" 
+                    style="color:rgb(199, 199, 199);   font-family: arial;    text-decoration:  none;"/>
+                    Iniciar sesión</a>                    
 
-                </div>                  
+                </div>    
 
-            </div>            
+            </div>
 
-
-            
         </div>
 
     </form>

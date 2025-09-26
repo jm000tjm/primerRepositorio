@@ -13,18 +13,16 @@ body {
   background-color: rgb(18, 13, 17);
 }
 
-#contenedor {
-  
+.contenedorGlobal {  
+  background-color: rgb(31,31,31);
   display: flex;
-  flex-direction: column;                   /* El  cntndr_1   s un Contenedor Flexbox n Columna */
-    border: 5px solid rgb(31,31,31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 2px;                    /* Bordes Rddnds pr el cntndr_1 */ 
-    background-color: rgb(31, 31, 31); /* Color d Fondo pr el cntndr_1 */ 
-  height: 590px;
+  height: 770px;
   width: 440px;
-  gap: 5px;       /* Espacio ntr ls Elmnts */
-  padding: 10px;
+  gap: 10px;/* Espacio ntr ls Elmnts */  
+  padding: 10px; /* Espacio c rspct al Margen dl Padre */
 }
+ 
+.cntndr_Clmn { flex-direction: column;  } 
 
 .contenedor-linea_1 {
   display: flex;
@@ -41,102 +39,149 @@ body {
   height: 55px;
   width: 66px;
   margin: 6px;       /* Espacio ntr ls Elmnts */
-    padding: 13px;    /* Espacio ntr l Borde y ls Elmnts d la Caja */
-    
+  padding: 13px;    /* Espacio ntr l Borde y ls Elmnts d la Caja */
 }
 
-.contenedor-linea2 {
+.cntndr_dNmbrAplld {
   display: flex;
-  gap: 10px;                 /* Espacio ntr ls Elmnts */
-  padding: 10px;
+  gap: 13px;              /* Espacio ntr ls Elmnts Nmbr y Aplld */
+  padding: 0px;           /* Espc d Nmbr y Aplld c rspct al Marge d Su Cntndr */
 }
 
-.cjsLinea2 {
-    background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 10px;              ); 
-    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
-  color: brown;
+.cjsLn_NmbrApllds {
+  background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+  border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+  border-radius: none;                    /* Bordes Rddnds pr el cntndr_1 */ 
   height: 50px;
-  width: 190px;
-  padding: 13px;        /* Espacio ntr l Borde y ls Elmnts d la Caja */
-  
+  width: 200px;
+  padding: 0%;        /* Espacio ntr el Borde y ls Elmnts d la Caja */
 }
 
-.contenedor-linea3 {
+.cjsLn_UsrEmailCntrsn {
+  background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+  border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+  border-radius: none;                    /* Bordes Rddnds pr el cntndr_1 */ 
+  height: 300px;
+  width: 420px;
+  padding: 0%;        /* Espacio ntr el Borde y ls Elmnts d la Caja */
+  gap: 10px; /* Espacio automático entre inputs */
+}
+
+
+
+.list_Dsplgbl{ background-color: rgb(74,73,74); 
+color: rgb(171, 169, 170);
+height: 50px;
+width: 410px;
+border: none;
+font-size: 16px;
+}
+.input_Crts{ background-color: rgb(44,43,44); 
+color: rgb(171, 169, 170);
+height: 50px;
+width: 200px;
+border: none;
+font-size: 16px;
+}
+.input_Lrgs{ background-color: rgb(44,43,44); 
+color: rgb(171, 169, 170);
+height: 50px;
+width: 410px;
+border-color: yellow;  border: 3px;  
+font-size: 16px;
+}
+
+
+
+
+
+
+
+
+.etqt_RecibirNoticias {
+    background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border: 1px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 0px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+  color: rgb(108,106,108);
+  height: 38px;
+  width: 400px;
+  padding: 0px;   
+  
+  font-family: arial;
+  font-size: 16px;
+}
+
+
+
+
+.cntndr_CheckBox{
+    background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border: 1px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: none;                    /* Bordes Rddnds pr el cntndr_1 */ 
+  color: rgb(108,106,108);
+  height: 50px;
+  width: 410px;
+  pad: 50px; 
+  padding: 1px;
+ 
+  font-family: arial;
+  font-size: 14px;
+}
+.tmn_CheckBox{
   display: flex;
-  gap: 10px;                 /* Espacio ntr ls Elmnts */
-  padding: 10px;
-  
+  align-items: center;
+  padding: 1px;
+  transform: scale(1.8); /* Aumenta el tamaño */
 }
 
-.cjs_1_Linea3 {
+
+
+
+
+.cj_1_Ln_NoticiasEnuestasOfertas {
     background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 10px;               
-    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+    border: 1px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 0px;                    /* Bordes Rddnds pr el cntndr_1 */ 
   color: brown;
-  height: 50px;
-  width: 50px;
-  padding: 13px;        /* Espacio ntr l Borde y ls Elmnts d la Caja */
-  
+  height: 20px;
+  width: 20px;
+  padding: 4px;        /* Espacio ntr l Borde y ls Elmnts d la Caja */
 }
 
 
-.cjs_2_Linea3 {
+.cj_1_Ln_Terminos {
     background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 10px;              
-    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
-  color: rgb(108,106,108);
-  height: 50px;
-  width: 320px;
-  padding: 4px;   
-  
-  font-family: arial;
-  font-size: 14px;
-}
-
-
-
-
-
-
-.cj_1_Linea4 {
-    background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 10px;               
-    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+    border: 1px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 0px;                    /* Bordes Rddnds pr el cntndr_1 */ 
   color: brown;
-  height: 30px;
-  width: 50px;
-  padding: 10px;        /* Espacio ntr l Borde y ls Elmnts d la Caja */
+  height: 20px;
+  width: 20px;
+  padding: 4px;        /* Espacio ntr l Borde y ls Elmnts d la Caja */
 }
-.cj_2_Linea4 {
+.cj_2_Ln_Terminos {
     background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 10px;              
-    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+    border: 1px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 0px;                    /* Bordes Rddnds pr el cntndr_1 */ 
   color: rgb(108,106,108);
   height: 30px;
-  width: 180px;
+  width: 174px;
   padding: 4px;   
   
   font-family: arial;
-  font-size: 14px;
+  font-size: 16px;
 }
-.cj_3_Linea4 {
+.cj_3_Ln_Terminos {
     background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 10px;              
-    border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+    border: 1px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
+    border-radius: 0px;                    /* Bordes Rddnds pr el cntndr_1 */ 
   color: rgb(108,106,108);
   height: 30px;
-  width: 180px;
-  padding: 4px;   
+  width: 160px;
+  padding: 4px;
+   
   
   font-family: arial;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 
@@ -147,11 +192,10 @@ body {
 
 
 
-.cj_1_Linea5 {
-    background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 10px;              
+.cj_1_TieneUnaCuenta {
+    background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */          
     border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
-    border-radius: 10px;                    /* Bordes Rddnds pr el cntndr_1 */ 
+    border-radius: none;                    /* Bordes Rddnds pr el cntndr_1 */ 
   color: rgb(108,106,108);
   height: 30px;
   width: 400px;
@@ -160,7 +204,7 @@ body {
   font-family: arial;
   font-size: 14px;
 }
-.cj_2_Linea5 {
+.cj_2_TieneUnaCuenta {
     background-color: rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
     border-radius: 10px;              
     border: 3px solid rgb(31, 31, 31); /* Grosor dl Borde dl  cntndr_1 */
@@ -168,7 +212,7 @@ body {
   color: rgb(108,106,108);
   height: 30px;
   width: 150px;
-  padding: 4px;   
+  padding: 4px; 
   
   font-family: arial;
   font-size: 14px;
@@ -186,18 +230,35 @@ body {
   font-weight: 600;
   /*height: 150px;*/
   height: 6em;
-
-  /*
-     
-    border-radius: 5px;
-    
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 20px;
-    height: 100px;*/  
 }
 
 
 
+
+
+.cntndr_DIV_nFila { flex-direction: row; display: flex; } 
+
+
 span { font-size: 17px;}
 h1 { text-align: center;}
+
+
+.btn { font-family: Arial; size: 14px; color: rgb(79,79,79);
+  width: 400px;
+  height: 50px;
+  padding: 12px 70px;
+  text-align: center;
+  /*border-radius: 10px;
+  border: 2px solid black;*/
+  background-color: rgb(26, 25, 25);
+}
+
+
+
+.u_C{ text-align: center }
+.ttc{ font-family: Arial;  size: 14px;   color:  rgb(210,214,206); }
+
+.tmn_UsrEmailCntrsn{
+  height: 60px; 
+  background: rgb(31,31,31);
+}
