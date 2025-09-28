@@ -1,0 +1,35 @@
+* {  margin: 0;  padding: 0;  box-sizing: border-box;  }
+body {  height: 100vh;  display: flex;  align-items: center;  justify-content: center;  
+display: flex; flex-direction: column; gap: 15px;}
+.cntndr_TdasLasNtcs {  
+  border: 1px red solid; background-color: rgb(162, 190, 106); height: 400px;  width: 900px;
+  display: flex;  flex-wrap: wrap; flex-direction: row; /*[row,column]  row sta p defecto */
+  align-items: center;
+  justify-content: space-evenly;/*space-+[around,evenly];*/
+  /*gap: 10px;*/
+}
+.ntc {  
+  border: 1px red solid; background-color: rgb(162, 169, 106); height: 150px;  width: 200px;
+  color: white;  font-family: arial;  font-size: 15px;
+   display: flex; flex-direction: column; align-items: center;
+}
+.ttlNtc{ 
+  border: 1px red solid; background-color: rgb(162, 190, 44); height: 20%;  width: 98%;
+  display: flex;  align-items: center; justify-content: center;
+}
+.imgnYcontenido{
+  border: 1px red solid; background-color: rgb(162, 190, 44); height: 71%;  width: 98%;
+  display: flex;  flex-direction: row; align-items: center; justify-content: center;
+  gap: 3px;
+}
+.imgn{
+  border: 1px red solid; background-color: rgb(162, 190, 44); height: 98%;  width: 63%;
+  display: flex; align-items: center; justify-content: center;
+}
+.cntnd{
+  border: 1px red solid; background-color: rgb(162, 190, 44); height: 98%;  width: 33%;
+}
+.pieDePgn{
+  border: 1px red solid; background-color: rgb(162, 190, 44); height: 20%;  width: 98%;
+  display: flex;  justify-content: center;
+}
