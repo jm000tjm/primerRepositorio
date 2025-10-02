@@ -1,3 +1,4 @@
+*{  margin: 0;  padding: 0;  box-sizing: border-box;   }
 li{ color: rgb(222,222,211); font-size: 19px; 
     font-weight: 900;                     /* Negrita*/
 }
@@ -5,8 +6,7 @@ li{ color: rgb(222,222,211); font-size: 19px;
     display:block;                         /* Rcnt´gl . */
     text-align: left;                      /* C Rspct al Rcnt´gl . */
     background-color: rgb(22, 11, 11) ;  /* Clr d Fnd dl Rcnt´gl . */
-    width: 450px;                          /* Anch dl Rcnt´gl . */
-
+    width: 840px;                          /* Anch dl Rcnt´gl . */
 }
 #titulo{    color: brown;               background-color: rgb(199, 185, 185);    }
 #subtitulo{ color: rgb(105, 241, 13);   background-color: brown;    }
@@ -33,3 +33,128 @@ li{ color: rgb(222,222,211); font-size: 19px;
     font-weight: Bold;                 /* Grosor de letra (Ngrt)  */
     color: rgb(144, 155, 144);               /* Color dtra */
 }
+
+
+
+
+p{   line-height: 0.9; /* Reduce el espacio entre líneas */
+}
+body{ background: black; display: flex;}
+
+.tmñ_LnEncbzd{  width: 435px; height: 10%    }
+.tmñ_LnClds {   width: 435px; height: 18%;     }
+.tmñ_LnRsltds{  width: 435px; height: 12%;     }
+
+.tmñ_Clds_Enbzd {   width: 25%; height: 90%; }
+.tmñ_Cld{           width: 25%; height: 100%    }
+.tmñ_CldsRsltds{    width: 25%; height: 90%    }
+
+.cntndr{            background: rgb(25, 42, 50);    width: 900px; height: 100%}
+
+.fnd_Ln{            background: rgb(25, 42, 50); color: burlywood;  border: 3px solid rgb(25, 42, 50);    }
+.fnd_CldEncbzds{    background: rgb(25, 42, 50);                      border: 3px solid rgb(25, 42, 50);    }
+.fnd_Cld{           background: rgb(31, 53, 64);  border: 3px solid rgb(31, 53, 64); border-radius: 13px;}
+.fnd_Cld:hover{     background: rgb(31, 53, 64);  border: 1px solid rgb(199, 199, 64); border-radius: 13px;      }
+.fnd_Cld_hvr{       background: rgb(49, 49, 49); }
+.fnd_Rsltd_X_You {  background: rgb(49, 196, 190); }
+.fnd_Rsltd_TIES {   background: rgb(168, 190, 201); }
+.fnd_Rsltd_CPU {    background: rgb(242, 178, 55); }
+
+
+.brd_CldsRsltd{   border: 1px solid rgb(9, 9, 9); border-radius: 13px;}
+
+
+.opC{     display: flex;  flex-direction: column;}
+.opF_c{     display: flex;  flex-direction: row;}
+
+/* A l i n e a r   E l m n t s */
+.u_C { display: flex;     align-items: center;    justify-content: center;}
+.u_H_I  { display: flex;   justify-content: left;  }
+.u_H_C  { display: flex;   justify-content: center;  }
+.u_H_D  { display: flex;   justify-content: right;  }
+.u_V_Ar { display: flex;   align-items: top;    }   
+.u_V_C  { display: flex;   align-items: center; }
+.u_V_Ab { display: flex;   align-items: bottom; }
+.izq {      display: flex;   justify-content: flex-start;    }
+.der {      display: flex;   justify-content: flex-end;    }
+.j-cntr{        display: flex; justify-content: center; }
+.j-spcArnd{     display: flex; justify-content: space-around; }
+.j-spcBtwn{     display: flex; justify-content: space-between; }
+
+.pddng_Ln {     padding: 8px; }
+.pddng_Rsltds{  padding: 10px; }
+
+.gp_Clds { gap: 12px; }
+
+
+
+.smbr_Clds {    box-shadow: 0px 6px 0px 0px rgba(15, 32, 43, 1); /* aplica una Sombra Suave y Difuminada */
+                         /* Der Abj Dsnfq Expans´              opacidad (últm prmtr ) */
+}
+
+/* Alnr Txt */
+.t-cntrr{       text-align: center;}
+
+/* Tps d Ltr */
+.arl  { font-family: arial;}
+
+/* Grsr d txt */
+.gt1{ font: 100;}
+.gt2{ font: 200;}
+.gt3{ font: 300;}
+.gt4{ font: 400;}
+.gt5{ font: 500;}
+.gt6{ font: 600;}
+.gt7{ font: 700;}
+.gt8{ font: 800;}
+.gt9{ font: 900;}
+
+/* Clr d txt */
+.ctn{  color:black}
+.ctam{ color:blue}
+.ctaz{ color:yellow}
+.ctv{  color:green}
+
+/* Tmñ d txt */
+.tt10{ font-size: 10px; }
+.tt11{ font-size: 11px; }
+.tt12{ font-size: 12px; }
+.tt13{ font-size: 13px; }
+.tt14{ font-size: 14px; }
+.tt15{ font-size: 15px; }
+.tt16{ font-size: 16px; }
+.tt17{ font-size: 17px; }
+.tt18{ font-size: 18px; }
+.tt19{ font-size: 19px; }
+.tt20{ font-size: 20px; }
+.tt20{ font-size: 20px; }
+.tt21{ font-size: 21px; }
+.tt22{ font-size: 22px; }
+.tt23{ font-size: 23px; }
+.tt24{ font-size: 24px; }
+.tt25{ font-size: 25px; }
+.tt26{ font-size: 26px; }
+.tt27{ font-size: 27px; }
+.tt28{ font-size: 28px; }
+.tt29{ font-size: 29px; }
+.tt30{ font-size: 30px; }
+.tt31{ font-size: 31px; }
+.tt32{ font-size: 32px; }
+.tt33{ font-size: 33px; }
+.tt34{ font-size: 34px; }
+.tt35{ font-size: 35px; }
+.tt36{ font-size: 36px; }
+.tt37{ font-size: 37px; }
+.tt38{ font-size: 38px; }
+.tt39{ font-size: 39px; }
+.tt40{ font-size: 40px; }
+.tt41{ font-size: 41px; }
+.tt42{ font-size: 42px; }
+.tt43{ font-size: 43px; }
+.tt44{ font-size: 44px; }
+.tt45{ font-size: 45px; }
+.tt46{ font-size: 46px; }
+.tt47{ font-size: 47px; }
+.tt48{ font-size: 48px; }
+.tt49{ font-size: 49px; }
+.tt50{ font-size: 50px; }
