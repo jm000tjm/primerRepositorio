@@ -1,0 +1,11 @@
+body{ height: 100vh; background: gray;}
+
+.tmñ_c{ width: 90%; height: 25%;}
+.fnd_c{ background: rgb(150, 168, 126); }
+.fnd2_c{ background: #beb47e; }
+.opC_c{ display: flex;  flex-direction: column;}
+.opF_c{ display: flex;  flex-direction: row;}
+.cntrr_Hijos { display: flex;     align-items: center;    justify-content: center;}
+.cntrr_Hijos_H { display: flex;   align-items: top;       justify-content: center;}
+.pddng_aHijos_body { padding: 20px; }
+.gp_aJijos { gap: 20px; }
