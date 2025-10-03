@@ -115,10 +115,10 @@ body{ background: black; display: flex;}
 .tt20{ font-size: 20px; }
 
 
-@media(min-width:150px){ .cntndr_vsMvl {   visibility: visible;  }  
+@media(min-width:150px){ .cntndr_vsMvl {   visibility: visible;  position: relative; top: 200px; }  
 .cntndr_md{ visibility: hidden;}
 }
-@media(min-width:640px){ .cntndr_vsMvl {   visibility: visible;  }  
+@media(min-width:640px){ .cntndr_vsMvl {   visibility: visible;  position: relative; top: 200px; }  
 .cntndr_md{ visibility: hidden;}
 }
 @media(min-width:768px){ .cntndr_vsMvl {   visibility: collapse;  }   
