@@ -40,9 +40,9 @@ body{ background: black; display: flex;}
 /* Vs Compu */
 .cntndr_md{            background: rgb(25, 42, 50);    width: 900px; height: 100%}
 
-.tmñ_LnEncbzd{  width: 435px; height: 10%    }
-.tmñ_LnClds {   width: 435px; height: 18%;   }
-.tmñ_LnRsltds{  width: 435px; height: 12%;   }
+.tmñ_LnEncbzd{  width: 435px; height: 15%    }
+.tmñ_LnClds {   width: 435px; height: 20%;   }
+.tmñ_LnRsltds{  width: 435px; height: 15%;   }
 
 .tmñ_Clds_Enbzd {   width: 25%; height: 90%; }
 .tmñ_Cld{           width: 25%; height: 100%    }
@@ -122,5 +122,5 @@ body{ background: black; display: flex;}
 .cntndr_md{ visibility: hidden;}
 }
 @media(min-width:768px){ .cntndr_vsMvl {   visibility: collapse;  }   
-.cntndr_md{ visibility: visible;}
+.cntndr_md{ visibility: visible; position: relative; top: -200px;}
 }
