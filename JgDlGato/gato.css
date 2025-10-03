@@ -1,18 +1,53 @@
 *{  margin: 0;  padding: 0;  box-sizing: border-box;   }
 
+.ocltr { visibility: hidden;}
+
 p{   line-height: 0.9; /* Reduce el espacio entre líneas */
 }
 body{ background: black; display: flex;}
 
+/* Vs Mvl */
+.cntndr_vsMvl { width: 430px; height: 600px; 
+    background: rgb(25, 42, 50);    border: 3px solid rgb(25, 42, 50);      border-radius: 13px;
+    gap: 22px; display: flex;  }
+
+.tmñ_pickPlyr{        width: 90%; height: 200px;    }
+.tmñ_Cntndr_Btns_X_O {  width: 90%; height: 80px;    }
+.tmñ_Btns_X_O {         width: 45%; height: 70%;    }
+.tmñ_Btns_NewGame {     width: 90%; height: 50px;    }
+
+.txt_PickPlayer{  color: #8ca4ae;}
+.txt_Remember{ color: rgb(82, 100, 116);}
+
+.fbs_pickerPyr{     background: rgb(31, 53, 64);    border: 3px solid rgb(31, 53, 64);      border-radius: 13px;     }
+.fbs_Cntndr_Btns_X_O{ background: rgb(26, 42, 52);    border: 3px solid rgb(31, 53, 64);      border-radius: 13px;     }
+.fbs_Btns_X_O {     background: rgb(30, 54, 54);    border: 3px solid rgb(31, 53, 64);      border-radius: 13px;     }
+.fbs_BtnCPU{        background: rgb(242, 178, 54);  border: 1px solid rgb(199, 199, 64);    border-radius: 13px;        box-shadow: 0px 6px 0px 0px rgba(203, 137, 22, 1);     }
+.fbs_BtnPlayer{     background: rgb(49, 196, 192);  border: 1px solid rgb(199, 199, 64);    border-radius: 13px;        box-shadow: 0px 6px 0px 0px rgba(26, 139, 135, 1);     }
+.fbs_Btn_X{ background: rgb(31, 53, 64);  border: 1px solid rgb(31, 53, 64);  border-radius: 13px;        }
+.fbs_Btn_O{ background: rgb(169, 190, 199);  border: 1px solid rgb(199, 199, 64);  border-radius: 13px;        }
+
+
+
+
+
+
+
+
+
+
+
+/* Vs Compu */
+.cntndr_md{            background: rgb(25, 42, 50);    width: 900px; height: 100%}
+
 .tmñ_LnEncbzd{  width: 435px; height: 10%    }
-.tmñ_LnClds {   width: 435px; height: 18%;     }
-.tmñ_LnRsltds{  width: 435px; height: 12%;     }
+.tmñ_LnClds {   width: 435px; height: 18%;   }
+.tmñ_LnRsltds{  width: 435px; height: 12%;   }
 
 .tmñ_Clds_Enbzd {   width: 25%; height: 90%; }
 .tmñ_Cld{           width: 25%; height: 100%    }
 .tmñ_CldsRsltds{    width: 25%; height: 90%    }
 
-.cntndr{            background: rgb(25, 42, 50);    width: 900px; height: 100%}
 
 .fnd_Ln{            background: rgb(25, 42, 50); color: burlywood;  border: 3px solid rgb(25, 42, 50);    }
 .fnd_CldEncbzds{    background: rgb(25, 42, 50);                      border: 3px solid rgb(25, 42, 50);    }
@@ -24,14 +59,16 @@ body{ background: black; display: flex;}
 .fnd_Rsltd_CPU {    background: rgb(242, 178, 55); }
 
 
+
+
 .brd_CldsRsltd{   border: 1px solid rgb(9, 9, 9); border-radius: 13px;}
 
 
 .opC{     display: flex;  flex-direction: column;}
-.opF_c{     display: flex;  flex-direction: row;}
+.opF{     display: flex;  flex-direction: row;}
 
 /* A l i n e a r   E l m n t s */
-.u_C { display: flex;     align-items: center;    justify-content: center;}
+.u_C {    display: flex;     align-items: center;    justify-content: center;}
 .u_H_I  { display: flex;   justify-content: left;  }
 .u_H_C  { display: flex;   justify-content: center;  }
 .u_H_D  { display: flex;   justify-content: right;  }
@@ -40,14 +77,14 @@ body{ background: black; display: flex;}
 .u_V_Ab { display: flex;   align-items: bottom; }
 .izq {      display: flex;   justify-content: flex-start;    }
 .der {      display: flex;   justify-content: flex-end;    }
-.j-cntr{        display: flex; justify-content: center; }
-.j-spcArnd{     display: flex; justify-content: space-around; }
-.j-spcBtwn{     display: flex; justify-content: space-between; }
+.j-cntr{    display: flex; justify-content: center; }
+.j-spcArnd{ display: flex; justify-content: space-around; }
+.j-spcBtwn{ display: flex; justify-content: space-between; }
 
 .pddng_Ln {     padding: 8px; }
 .pddng_Rsltds{  padding: 10px; }
 
-.gp_Clds { gap: 12px; }
+.gp_Clds  { gap: 12px; }
 
 
 
@@ -77,3 +114,13 @@ body{ background: black; display: flex;}
 .tt19{ font-size: 19px; }
 .tt20{ font-size: 20px; }
 
+
+@media(min-width:150px){ .cntndr_vsMvl {   visibility: visible;  }  
+.cntndr_md{ visibility: hidden;}
+}
+@media(min-width:640px){ .cntndr_vsMvl {   visibility: visible;  }  
+.cntndr_md{ visibility: hidden;}
+}
+@media(min-width:768px){ .cntndr_vsMvl {   visibility: collapse;  }   
+.cntndr_md{ visibility: visible;}
+}

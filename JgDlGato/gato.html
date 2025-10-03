@@ -7,37 +7,65 @@
     <link rel="stylesheet" href="./gato.css">
     <link rel="stylesheet" href="./output.css">
 </head>
-<body class="h-screen  u_C  opC  ">
-  
-  <div class="cntndr  u_C  opC">
-    <div class="tmñ_LnEncbzd fnd_Ln   opF_c  u_C    gp_Clds  pddng_Ln">      
+<body class="h-screen  opC  u_C  ">   <!-- h-screen -->
+
+
+
+  <div class="cntndr_vsMvl  opC  u_C   ">
+
+    <div><img src="./imgns/xo.jpg" alt=""></div>
+    <div class="fbs_pickerPyr  tmñ_pickPlyr   opC  u_C ">
+
+      <p class="txt_PickPlayer">PICK PLAYER 1'S MARK</p>
+      <div class="fbs_Cntndr_Btns_X_O  tmñ_Cntndr_Btns_X_O     j-spcArnd   u_V_C">
+        <a class="fbs_Btn_X  tmñ_Btns_X_O  u_C" ><img src="./imgns/x.png" alt="" style="width: 30%; height: 100%;" /></a>
+        <a class="fbs_Btn_O  tmñ_Btns_X_O  u_C" ><img src="./imgns/O_oscura.png" alt="" style="width: 30%; height: 100%;" /></a>
+      </div> 
+      <p class="txt_Remember">REMEMBER: X GOES FIRST</p>
+
+    </div>
+    <button class="fbs_BtnCPU  tmñ_Btns_NewGame">NEW GAME (VS CPU)</button>
+    <button class="fbs_BtnPlayer  tmñ_Btns_NewGame">NEW GAME (VS PLAYER)</button>
+
+  </div>
+
+
+
+
+
+
+
+
+  <div class="cntndr_md  u_C  opC    ">       <!-- sm:invisible;  md:visible; -->
+    <div class="tmñ_LnEncbzd fnd_Ln   opF  u_C    gp_Clds  pddng_Ln">      
       <div class="fnd_CldEncbzds    tmñ_Clds_Enbzd  u_V_Ar }"> 
       <img src="./imgns/xo.jpg" alt="" style="width: 60%; height: 95%;" />   </div>
       <div class="fnd_Cld    smbr_Clds  tmñ_Clds_Enbzd  u_C"> <a href=""> <img src="./imgns/Xturn.png" alt=""></a> </div>
       <div class="fnd_CldEncbzds    tmñ_Clds_Enbzd  u_V_Ab  der"> <a href=""><img src="./imgns/BtnDeNuevo.jpg" alt=""></a> </div>  
     </div>  
 
-    <div class="tmñ_LnClds fnd_Ln   opF_c  u_C  gp_Clds  pddng_Ln">      
+    <div class="tmñ_LnClds fnd_Ln   opF  u_C  gp_Clds  pddng_Ln">      
       <div class="fnd_Cld    tmñ_Cld  smbr_Clds  "> </div> <!-- Cld 1,1 -->
       <div class="fnd_Cld    tmñ_Cld  smbr_Clds  u_C"> <img src="./imgns/x.png" alt=""  style="width: 70%; height: 70%;"/> </div> <!-- Cld 1,2 -->
       <div class="fnd_Cld    tmñ_Cld  smbr_Clds  u_C"> <img src="./imgns/O.png" alt="" style="width: 70%; height: 70%;"/> </div> <!-- Cld 1,3 -->
     </div>
-    <div class="tmñ_LnClds fnd_Ln   opF_c  u_C  gp_Clds  pddng_Ln">      
+    <div class="tmñ_LnClds fnd_Ln   opF  u_C  gp_Clds  pddng_Ln">      
       <div class="fnd_Cld    tmñ_Cld  smbr_Clds  u_C"> <img src="./imgns/x.png" alt=""  style="width: 70%; height: 70%;"/>  </div> <!-- Cld 2,1 -->
       <div class="fnd_Cld    tmñ_Cld  smbr_Clds  u_C"> <img src="./imgns/O.png" alt="" style="width: 70%; height: 70%;"/> </div> <!-- Cld 2,2 -->
       <div class="fnd_Cld    tmñ_Cld  smbr_Clds  u_C"> <img src="./imgns/x.png" alt=""  style="width: 70%; height: 70%;"/> </div>   <!-- Cld 2,3 -->    
     </div>
-    <div class="tmñ_LnClds fnd_Ln    opF_c  u_C  gp_Clds  pddng_Ln">      
+    <div class="tmñ_LnClds fnd_Ln    opF  u_C  gp_Clds  pddng_Ln">      
       <div class="fnd_Cld    tmñ_Cld  smbr_Clds"> </div> <!-- Cld 3,1 -->
       <div class="fnd_Cld    tmñ_Cld  smbr_Clds  u_C"> <img src="./imgns/O.png" alt="" style="width: 70%; height: 70%;"/> </div> <!-- Cld 3,2 -->
       <div class="fnd_Cld    tmñ_Cld  smbr_Clds  u_C"> <img src="./imgns/x.png" alt=""  style="width: 70%; height: 70%;"/> </div>   <!-- Cld 3,3 -->
     </div>
 
-    <div class="tmñ_LnRsltds fnd_Ln    opF_c  u_C    gp_Clds  pddng_Ln">      
+    <div class="tmñ_LnRsltds fnd_Ln    opF  u_C    gp_Clds  pddng_Ln">      
       <div class="fnd_Rsltd_X_You  brd_CldsRsltd  tmñ_CldsRsltds  opC  u_C"> <p class="ctn  tt12 ">X (YOU)</p> <p class="text-black text-2xl">0</p> </div>
       <div class="fnd_Rsltd_TIES  brd_CldsRsltd  tmñ_CldsRsltds  opC  u_C"><p class="ctn  tt12">TIES</p> <p class="text-black  text-2xl">0 </p> </div>
       <div class="fnd_Rsltd_CPU  brd_CldsRsltd  tmñ_CldsRsltds  opC  u_C  "><p class="ctn  tt12">O (CPU)</p> <p class="text-black  text-2xl">0</p> </div>  
     </div>  
   </div>
+
 </body>
 </html>

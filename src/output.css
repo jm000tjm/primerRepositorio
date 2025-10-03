@@ -1164,6 +1164,16 @@
       color: var(--color-green-500);
     }
   }
+  .md\:invisible {
+    @media (width >= 48rem) {
+      visibility: hidden;
+    }
+  }
+  .md\:visible {
+    @media (width >= 48rem) {
+      visibility: visible;
+    }
+  }
   .md\:order-1 {
     @media (width >= 48rem) {
       order: 1;
