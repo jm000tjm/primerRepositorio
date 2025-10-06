@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" id="todo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Librería</title>
+  </head>
+  <body class="">
+    <header
+      class="h-24 bg-yellow-800 text-white flex items-center justify-between dark:bg-slate-900 py-2 px-4"
+    >
+      <!-- <button id="btn-dark" class="bg-green-900 p-3 rounded-2xl">
+        DARK MODE
+      </button> -->
+      <label
+        class="relative inline-flex items-center cursor-pointer scale-[60%]"
+      >
+        <input class="sr-only" type="checkbox" id="btn-dark" />
+        <div
+          class="w-20 h-10 rounded-full bg-gradient-to-r from-yellow-300 to-orange-400 peer-checked:from-blue-400 peer-checked:to-indigo-500 transition-all duration-500 after:content-['☀️'] after:absolute after:top-1 after:left-1 after:bg-white after:rounded-full after:h-8 after:w-8 after:flex after:items-center after:justify-center after:transition-all after:duration-500 peer-checked:after:translate-x-10 peer-checked:after:content-['🌙'] peer-checked:after:bg-slate-900 after:shadow-md after:text-lg"
+        ></div>
+      </label>
+      <img src="./img/logo1.png" alt="" class="h-full" />
+      <button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </button>
+    </header>
+    <main class="flex flex-col md:flex-row-reverse">
+      <div
+        class="flex flex-col p-4 bg-orange-300 dark:bg-slate-500 dark:text-white md:w-[80%] md:h-full lg:w-[70%]"
+      >
+        <div class="flex items-center justify-around w-full">
+          <div
+            class="bg-white flex items-center justify-center border border-gray-400 w-56 rounded-2xl"
+          >
+            <input type="text" class="w-[80%] outline-none" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+              />
+            </svg>
+          </div>
+          <select name="" id="" class="bg-white px-2 border border-gray-400">
+            <option value="">terror</option>
+            <option value="">novelas ligeras</option>
+            <option value="">comics</option>
+            <option value="">ciencia ficcion</option>
+          </select>
+        </div>
+        <!-- c a r d s - c o n t a i n e r -->
+        <div      class="cards-container w-full flex flex-col items-center justify-center py-4 gap-4     bg-gray-400   border-1 border-gray-900"        >
+          <div    class="card w-[75%] flex flex-col justify-center bg-gray-400 text-white p-4 rounded-2xl      border-2 border-gray-900"    >
+            <div  class="w-full flex flex-col gap-2 items-center justify-center">
+              <h2 class="text-4xl font-bold  text-gray-900">Harry Potter</h2>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrtzNUJt35DyuAgsVnUrYvL-egZ99Zr_QPtI50qjp4GN4HxUUacICbWu4tauagE5Mp4rA&usqp=CAU"
+                alt="imagen del libro"
+              />
+            </div>
+            <p class="text-gray-800 text-2xl">
+              Género: <span class="font-bold" >Fantasia</span> <br />
+              Autor: <span class="font-bold">J. K. Rowling </span>  <br />
+              Año: <span  class="font-bold">1997</span> <br />
+            </p>
+            <div class="w-full flex items-center justify-center">
+              <button   class="bg-gray-600 text-red-200  py-2 px-8 rounded-3xl hover:bg-green-800 font-bold  text-3xl"              >
+                $20.00
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="h-[20%] sm:flex md:flex-col md:h-full md:w-[20%] lg:w-[30%]">
+        <div
+          class="h-[50%] bg-blue-900 text-white dark:bg-slate-800 sm:h-full sm:w-[30%] md:w-full"
+        >
+          CAJA 2
+        </div>
+        <div
+          class="h-[50%] bg-pink-500 dark:bg-slate-700 dark:text-white sm:h-full sm:w-[70%] md:w-full"
+        >
+          CAJA 3
+        </div>
+      </div>
+    </main>
+    <footer class="h-[10%] bg-purple-400 dark:bg-slate-950 dark:text-white">
+      FOOTER
+    </footer>
+
+    <script>
+      let botoncito = document.querySelector("#btn-dark");
+      let todo = document.querySelector("#todo");
+      botoncito.addEventListener("click", function () {
+        todo.classList.toggle("dark");
+      });
+    </script>
+  </body>
+</html>

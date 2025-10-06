@@ -34,12 +34,27 @@ li{ color: rgb(222,222,211); font-size: 19px;
     color: rgb(144, 155, 144);               /* Color dtra */
 }
 
+/* Pgn Raíz */
+.ejrccs{ border: 1px solid rgb(44, 199, 44); border-radius: 1px; }
 
 
 
-p{   line-height: 0.9; /* Reduce el espacio entre líneas */
-}
+
+
+
+/* Reduce ó Incrmnta el spc ntr líneas */
+
+.p08{   line-height: 0.8; }
+.p09{   line-height: 0.9; }
+.p10{   line-height: 1.0; }
+.p11{   line-height: 1.1; }
+.p12{   line-height: 1.2; }
+.p13{   line-height: 1.3; }     
+
+
 body{ background: black; display: flex;}
+
+
 
 .tmñ_LnEncbzd{  width: 435px; height: 10%    }
 .tmñ_LnClds {   width: 435px; height: 18%;     }
@@ -65,24 +80,25 @@ body{ background: black; display: flex;}
 
 
 .opC{     display: flex;  flex-direction: column;}
-.opF_c{     display: flex;  flex-direction: row;}
+.opF{     display: flex;  flex-direction: row;}
 
 /* A l i n e a r   E l m n t s */
 .u_C { display: flex;     align-items: center;    justify-content: center;}
-.u_H_I  { display: flex;   justify-content: left;  }
-.u_H_C  { display: flex;   justify-content: center;  }
-.u_H_D  { display: flex;   justify-content: right;  }
+.u_H_I  { display: flex;   justify-content: left;       }
+.u_H_C  { display: flex;   justify-content: center;     }
+.u_H_D  { display: flex;   justify-content: right;      }
 .u_V_Ar { display: flex;   align-items: top;    }   
 .u_V_C  { display: flex;   align-items: center; }
 .u_V_Ab { display: flex;   align-items: bottom; }
-.izq {      display: flex;   justify-content: flex-start;    }
-.der {      display: flex;   justify-content: flex-end;    }
-.j-cntr{        display: flex; justify-content: center; }
-.j-spcArnd{     display: flex; justify-content: space-around; }
-.j-spcBtwn{     display: flex; justify-content: space-between; }
+.izq {      display: flex; justify-content: flex-start;     }
+.der {      display: flex; justify-content: flex-end;       }
+.j-cntr{    display: flex; justify-content: center;         }
+.j-spcArnd{ display: flex; justify-content: space-around;   }
+.j-spcBtwn{ display: flex; justify-content: space-between;  }
 
 .pddng_Ln {     padding: 8px; }
 .pddng_Rsltds{  padding: 10px; }
+.p1{ padding-left: 1px;  }.p2{ padding-left: 2px;  }.p3{ padding-left: 3px;  }.p4{ padding-left: 4px;  }.p5{ padding-left: 5px;  }
 
 .gp_Clds { gap: 12px; }
 
@@ -92,13 +108,20 @@ body{ background: black; display: flex;}
                          /* Der Abj Dsnfq Expans´              opacidad (últm prmtr ) */
 }
 
+
 /* Alnr Txt */
+
 .t-cntrr{       text-align: center;}
 
+
 /* Tps d Ltr */
+
 .arl  { font-family: arial;}
+.vrdn   {font-family: Verdana;}
+
 
 /* Grsr d txt */
+
 .gt1{ font: 100;}
 .gt2{ font: 200;}
 .gt3{ font: 300;}
@@ -109,52 +132,26 @@ body{ background: black; display: flex;}
 .gt8{ font: 800;}
 .gt9{ font: 900;}
 
+
 /* Clr d txt */
-.ctn{  color:black}
-.ctam{ color:blue}
-.ctaz{ color:yellow}
-.ctv{  color:green}
+
+.ctn{  color:black  }
+.ctam{ color:yellow }
+.ctaz{ color:blue   }
+.ctb{  color:white  }
+.ctg{  color:gray   }
+.ctr{  color:red    }
+.ctv{  color:green  }
+
 
 /* Tmñ d txt */
+
 .tt10{ font-size: 10px; }
-.tt11{ font-size: 11px; }
-.tt12{ font-size: 12px; }
-.tt13{ font-size: 13px; }
-.tt14{ font-size: 14px; }
-.tt15{ font-size: 15px; }
-.tt16{ font-size: 16px; }
-.tt17{ font-size: 17px; }
-.tt18{ font-size: 18px; }
-.tt19{ font-size: 19px; }
-.tt20{ font-size: 20px; }
-.tt20{ font-size: 20px; }
-.tt21{ font-size: 21px; }
-.tt22{ font-size: 22px; }
-.tt23{ font-size: 23px; }
-.tt24{ font-size: 24px; }
-.tt25{ font-size: 25px; }
-.tt26{ font-size: 26px; }
-.tt27{ font-size: 27px; }
-.tt28{ font-size: 28px; }
-.tt29{ font-size: 29px; }
-.tt30{ font-size: 30px; }
-.tt31{ font-size: 31px; }
-.tt32{ font-size: 32px; }
-.tt33{ font-size: 33px; }
-.tt34{ font-size: 34px; }
-.tt35{ font-size: 35px; }
-.tt36{ font-size: 36px; }
-.tt37{ font-size: 37px; }
-.tt38{ font-size: 38px; }
-.tt39{ font-size: 39px; }
-.tt40{ font-size: 40px; }
-.tt41{ font-size: 41px; }
-.tt42{ font-size: 42px; }
-.tt43{ font-size: 43px; }
-.tt44{ font-size: 44px; }
-.tt45{ font-size: 45px; }
-.tt46{ font-size: 46px; }
-.tt47{ font-size: 47px; }
-.tt48{ font-size: 48px; }
-.tt49{ font-size: 49px; }
-.tt50{ font-size: 50px; }
+.tt11{ font-size: 11px; }.tt12{ font-size: 12px; }.tt13{ font-size: 13px; }.tt14{ font-size: 14px; }.tt15{ font-size: 15px; }
+.tt16{ font-size: 16px; }.tt17{ font-size: 17px; }.tt18{ font-size: 18px; }.tt19{ font-size: 19px; }.tt20{ font-size: 20px; }
+.tt21{ font-size: 21px; }.tt22{ font-size: 22px; }.tt23{ font-size: 23px; }.tt24{ font-size: 24px; }.tt25{ font-size: 25px; }
+.tt26{ font-size: 26px; }.tt27{ font-size: 27px; }.tt28{ font-size: 28px; }.tt29{ font-size: 29px; }.tt30{ font-size: 30px; }
+.tt31{ font-size: 31px; }.tt32{ font-size: 32px; }.tt33{ font-size: 33px; }.tt34{ font-size: 34px; }.tt35{ font-size: 35px; }
+.tt36{ font-size: 36px; }.tt37{ font-size: 37px; }.tt38{ font-size: 38px; }.tt39{ font-size: 39px; }.tt40{ font-size: 40px; }
+.tt41{ font-size: 41px; }.tt42{ font-size: 42px; }.tt43{ font-size: 43px; }.tt44{ font-size: 44px; }.tt45{ font-size: 45px; }
+.tt46{ font-size: 46px; }.tt47{ font-size: 47px; }.tt48{ font-size: 48px; }.tt49{ font-size: 49px; }.tt50{ font-size: 50px; }
