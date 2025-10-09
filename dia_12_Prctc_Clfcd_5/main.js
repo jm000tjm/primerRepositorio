@@ -79,6 +79,7 @@ if (( edad >= 6 && edad <= 969 ) && ( distancia >= 0.3 && distancia <= 500 ) &&
 
 //  E j e r c i c i o   3 .
 
+/*
 let gradosCelsius = 0.0;
 let gradosFahrenheit = 0.0;
 let m = 0.0;
@@ -186,4 +187,70 @@ if ( opcion == 1 || opcion == 2 || opcion == 3 || opcion == 4 ) {
     }
 } else { 
     console.log("Usted introdujo ( ", opcion ," ) y NO es una opción válida. " ); 
+}
+
+*/
+
+
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+//  E j e r c i c i o   4 .
+
+let total_dCompra = parseFloat(prompt(
+`Sistema de descuentos de la tienda.
+
+ Por política de la tienda su compra mínima debe ser de $1.0.
+
+¿ Cuánto fue de su compra ?
+`));
+let tarjetaClienteFrcnt = prompt("¿ Tiene tarjeta de ciente frecuente ( si / no ) ?");
+let descuento = 0.0;
+let cargo = 0.0
+let precioFinal = 0.0;
+let cdn4 = "";
+
+if (( total_dCompra >= 1 && total_dCompra <= 5000000000000 ) && 
+    ( tarjetaClienteFrcnt.toLowerCase() === "si" ||  tarjetaClienteFrcnt.toLowerCase() === "no") ) {
+
+    console.log("Usted ha realizado una compra de: $", total_dCompra ," y, ", tarjetaClienteFrcnt ," es cliente frecuente.");
+
+    if ( total_dCompra >= 500 ) { console.log("Tienes 10 % de descuento por comprar $500 o más."); 
+        descuento += 10 ;   }
+
+    if ( tarjetaClienteFrcnt.toLowerCase() === "si" ) { console.log("Tienes 5 % de descuento por tener tarjeta de cliente frecuente."); 
+        descuento += 5; }
+
+    if ( total_dCompra <= 100 ) { console.log("Se le aplica un cargo del 5% porque su compra no es mayor de $100.00 ."); cargo += 5; }
+
+    console.log("Rasumen de su cuenta:")
+    
+    console.log("Porcentaje de DESCUENTO: ",descuento ," %" );
+    descuento /= 100;               /* Obtengo el % d Descuento n decimal pr poder multiplicaro */
+    descuento *= total_dCompra      /* Multiplico p el total d la compra pr obtnr el Descuento n Dinero  */ 
+    descuento = parseFloat(descuento.toFixed(2));       /* Acoto a 2 decimales el Descuento n Dinero */
+    console.log("DESCUENTO: $", descuento );
+    
+    if( cargo > 0 ) { 
+        console.log("Porcentaje de CARGO: ",cargo ," %" ); 
+        cargo /= 100;               /* Obtengo el % d Cargo n decimal pr poder multiplicaro */
+        cargo *= total_dCompra;     /* Multiplico p el total d la compra pr obtnr el Cargo n Dinero  */ 
+        cargo = parseFloat(cargo.toFixed(2));           /* Acoto a 2 decimales el Cargo n Dinero */
+        console.log("CARGO: $",cargo ); 
+    }
+
+    precioFinal = total_dCompra - descuento  + cargo;
+
+    precioFinal = parseFloat(precioFinal.toFixed(2));
+
+    console.log("El precio final a pagar es: $", precioFinal )
+
+} else { 
+    console.log("Usted debe volver capturar los datos porque: ");
+    if(!( total_dCompra >= 1 && total_dCompra <= 5000000000000 )) console.log("Introdujo una compra de (",total_dCompra,") y NO es VÁLIDA.");
+    cdn4 = total_dCompra+"";    if ( cdn4.length == 3 ) { console.log("Campo vacío.  No introdujo  Compra ");    }
+    if(!( tarjetaClienteFrcnt.toLowerCase() === "si" ||  tarjetaClienteFrcnt.toLowerCase() === "no" )) {
+        console.log("En tarjeta de cliente frecuente usted contestó (",tarjetaClienteFrcnt,") y NO es VÁLIDO. Solo debe ser ( si / no ).");
+    }
+    cdn4 = tarjetaClienteFrcnt;    if ( cdn4.length == 3 ) { console.log("Campo vacío.  No introdujo Si tiene o No tarjeta de Cliente Frecuente. ");    }
+    console.log(cdn4);
 }
