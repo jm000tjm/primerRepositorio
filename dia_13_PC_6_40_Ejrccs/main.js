@@ -54,13 +54,11 @@ for (let i=3; i <= 30; i+=3) { console.log( i ); }
 //let n = 5; //parseInt(prompt("Introduzca un número para calcular su factorial:"));
 //if( n >= 3 && n <= 20 ) {
 /*
-   console.log("Calculando el factoria del un número.");   
-   let n = 7;
-
-   for (let i=n-1; i >= 2 ; i--) { 
-      
-      console.log( n, " x " , i , " = " , (n = n * i) ); 
-   }
+console.log("Calculando el factoria del un número.");   
+let n = 7;
+for (let i=n-1; i >= 2 ; i--) {       
+    console.log( n, " x " , i , " = " , (n = n * i) ); 
+}
 */
 //}
 

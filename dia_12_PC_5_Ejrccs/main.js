@@ -39,10 +39,11 @@ let cdn = "" ;
 cdn = nota1+"";
 console.log("cdn: ",cdn.length)
 */
-//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 //  E j e r c i c i o   2 .
-/*
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+/* 
 let edad = parseInt(prompt(
 `Calculadpra de tarifa de transporte.
 
@@ -73,12 +74,11 @@ if (( edad >= 6 && edad <= 969 ) && ( distancia >= 0.3 && distancia <= 500 ) &&
     if(!( estudiante.toLowerCase() === "si" ||  estudiante.toLowerCase() === "no" )) console.log("En estudiante usted contestó (",estudiante,") y NO es VÁLIDO. Solo debe ser ( si / no ).");
     if(!( distancia >= 0.3 && distancia <= 500 )) console.log("Ha introducido una Distancia de (",distancia,") y NO es VÁLIDA.");
 }
-*/
+ */
 
 //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-
 //  E j e r c i c i o   3 .
-
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 /*
 let gradosCelsius = 0.0;
 let gradosFahrenheit = 0.0;
@@ -193,9 +193,10 @@ if ( opcion == 1 || opcion == 2 || opcion == 3 || opcion == 4 ) {
 
 
 //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-
 //  E j e r c i c i o   4 .
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
+/*
 let total_dCompra = parseFloat(prompt(
 `Sistema de descuentos de la tienda.
 
@@ -225,16 +226,16 @@ if (( total_dCompra >= 1 && total_dCompra <= 5000000000000 ) &&
     console.log("Rasumen de su cuenta:")
     
     console.log("Porcentaje de DESCUENTO: ",descuento ," %" );
-    descuento /= 100;               /* Obtengo el % d Descuento n decimal pr poder multiplicaro */
-    descuento *= total_dCompra      /* Multiplico p el total d la compra pr obtnr el Descuento n Dinero  */ 
-    descuento = parseFloat(descuento.toFixed(2));       /* Acoto a 2 decimales el Descuento n Dinero */
+    descuento /= 100;               // Obtengo el % d Descuento n decimal pr poder multiplicaro 
+    descuento *= total_dCompra      // Multiplico p el total d la compra pr obtnr el Descuento n Dinero 
+    descuento = parseFloat(descuento.toFixed(2));       // Acoto a 2 decimales el Descuento n Dinero 
     console.log("DESCUENTO: $", descuento );
     
     if( cargo > 0 ) { 
         console.log("Porcentaje de CARGO: ",cargo ," %" ); 
-        cargo /= 100;               /* Obtengo el % d Cargo n decimal pr poder multiplicaro */
-        cargo *= total_dCompra;     /* Multiplico p el total d la compra pr obtnr el Cargo n Dinero  */ 
-        cargo = parseFloat(cargo.toFixed(2));           /* Acoto a 2 decimales el Cargo n Dinero */
+        cargo /= 100;               // Obtengo el % d Cargo n decimal pr poder multiplicaro 
+        cargo *= total_dCompra;     // Multiplico p el total d la compra pr obtnr el Cargo n Dinero 
+        cargo = parseFloat(cargo.toFixed(2));           // Acoto a 2 decimales el Cargo n Dinero 
         console.log("CARGO: $",cargo ); 
     }
 
@@ -254,3 +255,26 @@ if (( total_dCompra >= 1 && total_dCompra <= 5000000000000 ) &&
     cdn4 = tarjetaClienteFrcnt;    if ( cdn4.length == 3 ) { console.log("Campo vacío.  No introdujo Si tiene o No tarjeta de Cliente Frecuente. ");    }
     console.log(cdn4);
 }
+ */
+
+
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+//  E j e r c i c i o   5 .
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+/*  
+let a_ncmnt = parseInt(prompt("¿ Cuál es su año de nacimiento ?")); 
+let a_actual = parseInt(prompt("Ingrese el año actual: ")); 
+cdn = "";
+let edad = 0;
+
+if ( a_actual > a_ncmnt ) {
+    edad = a_actual - a_ncmnt;
+    if ( edad < 18 ) {                  cdn = "Menor de Edad"; }
+    if ( edad >= 18 && edad <= 30 ) {   cdn = "Adulto Joven"; }
+    if ( edad >= 31 && edad <= 59 ) {   cdn = "Adulto"; }  
+    if ( edad > 60 ) {                  cdn = "Adulto Mayor"; }
+    console.log("Usted es "+ cdn + " y tiene ", edad );     
+} else {
+    console.log("Los Datos que Ingresó son Incongruentes. Considere que, el Año Actual debe ser mayor que el Año de Nacimiento. ");
+}
+ */
