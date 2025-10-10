@@ -1,0 +1,16 @@
+#prncpl{
+    display: block;                        /* Rcnt´gl */
+    width: 1250px;                         /* Anch dl Rcnt´gl . */    
+    text-align: left;                      /* Alineac´ c Rspct al Rcnt´gl . */
+    background-color: rgb(22, 11, 11) ;  /* Fnd dl Rcnt´gl . */
+}
+.cbcr{ background: rgb(25, 42, 50); color:rgb(200, 200, 200);  border: 0px solid rgb(25, 142, 50);    }
+
+.dd         {  border: 1px solid rgb(20, 188, 20); border-radius: 1px; }
+.ddyTemas   {  border: 0px solid rgb(25, 142, 50); border-radius: 1px; }
+.ejrccs     {  border: 0px solid rgb(44, 199, 44); border-radius: 1px; }
+.ligaEjrcc{   font-family: 'Verdana';  font-size: 18px;    font-weight: 100;               /* Grosor de letra (Ngrt)  */
+            color: rgb(139, 88, 166);      /* Clr letra */
+}
+.plbrsClv{  color: rgb(180, 170, 170);            }
+

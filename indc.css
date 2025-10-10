@@ -2,31 +2,15 @@
 li{ color: rgb(222,222,211); font-size: 19px; 
     font-weight: 900;                     /* Negrita*/
 }
-#prncpl{
-    display:block;                         /* Rcnt´gl . */
-    text-align: left;                      /* C Rspct al Rcnt´gl . */
-    background-color: rgb(22, 11, 11) ;  /* Clr d Fnd dl Rcnt´gl . */
-    width: 840px;                          /* Anch dl Rcnt´gl . */
-}
-#titulo{    color: brown;               background-color: rgb(199, 185, 185);    }
-#subtitulo{ color: rgb(105, 241, 13);   background-color: brown;    }
+
+
 .prctcndC{ font-family: arial ;             /* Tipo de letra */
             font-size: 16px;                /* Tamaño de letra */
             font-weight: 700;               /* Grosor de letra (Ngrt) */
             color: rgb(155, 122, 188);    /* Color dtra */
             }
-.plbrsClv{ font-family: arial ;             /* Tipo de letra */
-            font-size: 14px;                /* Tamaño de letra */
-            font-weight: 700;               /* Grosor de letra */
-            color: blueviolet;            /* Color dtra */
-            background-color: rgb(199, 185, 185); /* Color de fondo */
-            }
-.vrEjrccDlDD{ 
-            font-family: 'Times New Roman';  /* Tipo de letra */
-            font-size: 18px;                 /* Tamaño de letra */
-            font-weight: Bold;               /* Grosor de letra (Ngrt)  */
-            color: rgb(139, 85, 139);      /* Color dtra */
-            }
+
+
 .fch{
     font-family: Arial narrow;        /* Tipo de letra */
     font-size: 15px;                   /* Tamaño de letra */
@@ -35,7 +19,7 @@ li{ color: rgb(222,222,211); font-size: 19px;
 }
 
 /* Pgn Raíz */
-.ejrccs{ border: 1px solid rgb(44, 199, 44); border-radius: 1px; }
+
 
 
 
@@ -98,10 +82,17 @@ body{ background: black; display: flex;}
 
 .pddng_Ln {     padding: 8px; }
 .pddng_Rsltds{  padding: 10px; }
+
 .p1{ padding-left: 1px;  }.p2{ padding-left: 2px;  }.p3{ padding-left: 3px;  }.p4{ padding-left: 4px;  }.p5{ padding-left: 5px;  }
+.p6{ padding-left: 6px;  }.p7{ padding-left: 7px;  }.p8{ padding-left: 8px;  }.p9{ padding-left: 9px;  }.p10{ padding-left: 10px;  }
 
 .gp_Clds { gap: 12px; }
-
+.gp1 { gap: 1px; }.gp2 { gap: 2px; }.gp3 { gap: 3px; }.gp4 { gap: 4px; }.gp5 { gap: 5px; }
+.gp6 { gap: 6px; }.gp7 { gap: 7px; }.gp8 { gap: 8px; }.gp9 { gap: 9px; }.gp10 { gap: 10px; }
+.gp11 { gap: 11px; }.gp12 { gap: 12px; }.gp13 { gap: 13px; }.gp14 { gap: 14px; }.gp15 { gap: 15px; }
+.gp16 { gap: 16px; }.gp17 { gap: 17px; }.gp18 { gap: 18px; }.gp19 { gap: 19px; }.gp20 { gap: 20px; }
+.gp21 { gap: 11px; }.gp22 { gap: 12px; }.gp23 { gap: 13px; }.gp24 { gap: 14px; }.gp25 { gap: 15px; }
+.gp26 { gap: 16px; }.gp27 { gap: 17px; }.gp28 { gap: 18px; }.gp29 { gap: 19px; }.gp30 { gap: 20px; }
 
 
 .smbr_Clds {    box-shadow: 0px 6px 0px 0px rgba(15, 32, 43, 1); /* aplica una Sombra Suave y Difuminada */
@@ -116,8 +107,13 @@ body{ background: black; display: flex;}
 
 /* Tps d Ltr */
 
-.arl  { font-family: arial;}
-.vrdn   {font-family: Verdana;}
+.arl    {font-family: arial;    }
+.vrdn   {font-family: Verdana;  }
+.clbr   {font-family: Calibri;  }
+.CL   {font-family: Calibri Light; }
+.GS   {font-family: Gill Sans;    }
+.GSM   {font-family: Gill Sans MT; }
+.SS   {font-family: sans-serif;   }
 
 
 /* Grsr d txt */
