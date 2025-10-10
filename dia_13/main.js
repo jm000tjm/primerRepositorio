@@ -181,7 +181,16 @@ while ( n < 20 ) {
    //console.log(n , " " , sm);
 }
 console.log("La sumatoria de los números del 1 al 20 es: ",sm);      
+
+// Suma d ls números dl 1 al 20 con bucle for.
+let sm = 0;
+for (let i = 1 ; i <= 20 ; i++) {
+   sm += i ;
+   console.log(i , " " , sm );
+}
+console.log("La suma total es:", sm);
 */
+
 
 /* 21. Muestra ls números dl 1 al 15 e indica si son pares o impares usnd while. */// Rspst AQUÍ 👇
 /*
